@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79EB922243145E60060AF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EB921243145E60060AF90 /* AppDelegate.swift */; };
+		E79EB924243145E60060AF90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EB923243145E60060AF90 /* SceneDelegate.swift */; };
+		E79EB929243145E60060AF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79EB927243145E60060AF90 /* Main.storyboard */; };
+		E79EB92C243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E79EB92A243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodeld */; };
+		E79EB92E243145E70060AF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79EB92D243145E70060AF90 /* Assets.xcassets */; };
+		E79EB931243145E70060AF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79EB92F243145E70060AF90 /* LaunchScreen.storyboard */; };
+		E79EB93B243146130060AF90 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79EB93A243146130060AF90 /* CloudKit.framework */; };
+		E79EB93D243146360060AF90 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EB93C243146360060AF90 /* SaveViewController.swift */; };
+		E79EB93F243146510060AF90 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EB93E243146510060AF90 /* AddItemViewController.swift */; };
+		E79EB94424318C030060AF90 /* RowCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EB94324318C030060AF90 /* RowCustomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E79EB91E243145E60060AF90 /* Saving to the Cloud PT2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saving to the Cloud PT2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79EB921243145E60060AF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E79EB923243145E60060AF90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E79EB928243145E60060AF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79EB92B243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Saving_to_the_Cloud_PT2.xcdatamodel; sourceTree = "<group>"; };
+		E79EB92D243145E70060AF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79EB930243145E70060AF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79EB932243145E70060AF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79EB938243146050060AF90 /* Saving to the Cloud PT2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Saving to the Cloud PT2.entitlements"; sourceTree = "<group>"; };
+		E79EB93A243146130060AF90 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		E79EB93C243146360060AF90 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		E79EB93E243146510060AF90 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		E79EB94324318C030060AF90 /* RowCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCustomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79EB91B243145E60060AF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79EB93B243146130060AF90 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79EB915243145E60060AF90 = {
+			isa = PBXGroup;
+			children = (
+				E79EB920243145E60060AF90 /* Saving to the Cloud PT2 */,
+				E79EB91F243145E60060AF90 /* Products */,
+				E79EB939243146130060AF90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E79EB91F243145E60060AF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79EB91E243145E60060AF90 /* Saving to the Cloud PT2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79EB920243145E60060AF90 /* Saving to the Cloud PT2 */ = {
+			isa = PBXGroup;
+			children = (
+				E79EB938243146050060AF90 /* Saving to the Cloud PT2.entitlements */,
+				E79EB921243145E60060AF90 /* AppDelegate.swift */,
+				E79EB923243145E60060AF90 /* SceneDelegate.swift */,
+				E79EB93C243146360060AF90 /* SaveViewController.swift */,
+				E79EB93E243146510060AF90 /* AddItemViewController.swift */,
+				E79EB94324318C030060AF90 /* RowCustomTableViewCell.swift */,
+				E79EB927243145E60060AF90 /* Main.storyboard */,
+				E79EB92D243145E70060AF90 /* Assets.xcassets */,
+				E79EB92F243145E70060AF90 /* LaunchScreen.storyboard */,
+				E79EB932243145E70060AF90 /* Info.plist */,
+				E79EB92A243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodeld */,
+			);
+			path = "Saving to the Cloud PT2";
+			sourceTree = "<group>";
+		};
+		E79EB939243146130060AF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79EB93A243146130060AF90 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79EB91D243145E60060AF90 /* Saving to the Cloud PT2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79EB935243145E70060AF90 /* Build configuration list for PBXNativeTarget "Saving to the Cloud PT2" */;
+			buildPhases = (
+				E79EB91A243145E60060AF90 /* Sources */,
+				E79EB91B243145E60060AF90 /* Frameworks */,
+				E79EB91C243145E60060AF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Saving to the Cloud PT2";
+			productName = "Saving to the Cloud PT2";
+			productReference = E79EB91E243145E60060AF90 /* Saving to the Cloud PT2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79EB916243145E60060AF90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Davide Russo";
+				TargetAttributes = {
+					E79EB91D243145E60060AF90 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = E79EB919243145E60060AF90 /* Build configuration list for PBXProject "Saving to the Cloud PT2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79EB915243145E60060AF90;
+			productRefGroup = E79EB91F243145E60060AF90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79EB91D243145E60060AF90 /* Saving to the Cloud PT2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79EB91C243145E60060AF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79EB931243145E70060AF90 /* LaunchScreen.storyboard in Resources */,
+				E79EB92E243145E70060AF90 /* Assets.xcassets in Resources */,
+				E79EB929243145E60060AF90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79EB91A243145E60060AF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79EB93F243146510060AF90 /* AddItemViewController.swift in Sources */,
+				E79EB92C243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodeld in Sources */,
+				E79EB93D243146360060AF90 /* SaveViewController.swift in Sources */,
+				E79EB922243145E60060AF90 /* AppDelegate.swift in Sources */,
+				E79EB94424318C030060AF90 /* RowCustomTableViewCell.swift in Sources */,
+				E79EB924243145E60060AF90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E79EB927243145E60060AF90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79EB928243145E60060AF90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79EB92F243145E70060AF90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79EB930243145E70060AF90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79EB933243145E70060AF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E79EB934243145E70060AF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79EB936243145E70060AF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Saving to the Cloud PT2/Saving to the Cloud PT2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCWFV294Q2;
+				INFOPLIST_FILE = "Saving to the Cloud PT2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitorj.cloudkittest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E79EB937243145E70060AF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Saving to the Cloud PT2/Saving to the Cloud PT2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCWFV294Q2;
+				INFOPLIST_FILE = "Saving to the Cloud PT2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitorj.cloudkittest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79EB919243145E60060AF90 /* Build configuration list for PBXProject "Saving to the Cloud PT2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79EB933243145E70060AF90 /* Debug */,
+				E79EB934243145E70060AF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79EB935243145E70060AF90 /* Build configuration list for PBXNativeTarget "Saving to the Cloud PT2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79EB936243145E70060AF90 /* Debug */,
+				E79EB937243145E70060AF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E79EB92A243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E79EB92B243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodel */,
+			);
+			currentVersion = E79EB92B243145E60060AF90 /* Saving_to_the_Cloud_PT2.xcdatamodel */;
+			path = Saving_to_the_Cloud_PT2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E79EB916243145E60060AF90 /* Project object */;
+}
